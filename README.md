@@ -1,63 +1,52 @@
 # NLW Setup Server
 
-Backend do projeto de habitos da NLW Setup, criado com Fastify, Prisma, Zod e Day.js.
+backend do evento da RocketSeat NLW Setup - trilha Ignite
 
-![Fastify](https://img.shields.io/badge/Fastify-20232A?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=flat-square)
-![Prisma](https://img.shields.io/badge/Prisma-20232A?style=flat-square)
-![Zod](https://img.shields.io/badge/Zod-20232A?style=flat-square)
-![Day.js](https://img.shields.io/badge/Dayjs-20232A?style=flat-square)
-
-## Demo
-
-Este projeto nao possui demo publica ativa no momento.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=fff)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=plastic&logo=node.js)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=plastic&logo=fastify)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=plastic&logo=prisma)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=plastic&logo=zod&logoColor=fff)
 
 ## Sobre
 
-Backend do projeto de habitos da NLW Setup, criado com Fastify, Prisma, Zod e Day.js.
-
-O objetivo deste repositorio e demonstrar uma implementacao clara, organizada e facil de avaliar, com documentacao objetiva para recrutadores e pessoas tecnicas entenderem rapidamente o contexto do projeto.
+backend do evento da RocketSeat NLW Setup - trilha Ignite
 
 ## Funcionalidades
 
-- API de habitos.
-- Resumo de progresso.
-- Cadastro e conclusao diaria.
-- Validacao de payloads.
-- Persistencia com Prisma.
+- Backend para acompanhamento de habitos.
+- Rotas para registro e consulta de progresso.
+- Persistencia de dados com Prisma.
+- Projeto desenvolvido na trilha Ignite da Rocketseat.
 
 ## Stack
 
-- **Fastify**
-- **TypeScript**
-- **Prisma**
-- **Zod**
-- **Day.js**
+- TypeScript
+- Node.js
+- Fastify
+- Prisma
+- Zod
 
 ## Como executar
 
 ```bash
-git clone https://github.com/marquesmaycon/nlw_setup_server.git
-cd nlw_setup_server
 npm install
 npm run dev
 ```
 
 ## Scripts disponiveis
 
-- `npm run dev`
+```bash
+npm run dev
+```
 
 ## Destaques tecnicos
 
-- Backend simples e bem direcionado.
-- Complementa o NLW Setup Web.
-- Boa demonstracao de API com Fastify.
+- API Node.js com Fastify e TypeScript.
+- Modelagem de dados com Prisma.
+- Uso de validacoes e manipulacao de datas no dominio.
 
-## Repositorio
-
-[Acessar repositorio no GitHub](https://github.com/marquesmaycon/nlw_setup_server)
-
----
+## Autor
 
 <div align="center">
   <img src="https://github.com/marquesmaycon.png" width="100px" style="border-radius: 50%"/>
@@ -66,7 +55,8 @@ npm run dev
   <br/>
   <br/>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayconhenrique/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzI1NicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSd4TWlkWU1pZCcgdmlld0JveD0nMCAwIDI1NiAyNTYnPjxwYXRoIGQ9J00yMTguMTIzIDIxOC4xMjdoLTM3LjkzMXYtNTkuNDAzYzAtMTQuMTY1LS4yNTMtMzIuNC0xOS43MjgtMzIuNC0xOS43NTYgMC0yMi43NzkgMTUuNDM0LTIyLjc3OSAzMS4zNjl2NjAuNDNoLTM3LjkzVjk1Ljk2N2gzNi40MTN2MTYuNjk0aC41MWEzOS45MDcgMzkuOTA3IDAgMCAxIDM1LjkyOC0xOS43MzNjMzguNDQ1IDAgNDUuNTMzIDI1LjI4OCA0NS41MzMgNTguMTg2bC0uMDE2IDY3LjAxM1pNNTYuOTU1IDc5LjI3Yy0xMi4xNTcuMDAyLTIyLjAxNC05Ljg1Mi0yMi4wMTYtMjIuMDA5LS4wMDItMTIuMTU3IDkuODUxLTIyLjAxNCAyMi4wMDgtMjIuMDE2IDEyLjE1Ny0uMDAzIDIyLjAxNCA5Ljg1MSAyMi4wMTYgMjIuMDA4QTIyLjAxMyAyMi4wMTMgMCAwIDEgNTYuOTU1IDc5LjI3bTE4Ljk2NiAxMzguODU4SDM3Ljk1Vjk1Ljk2N2gzNy45N3YxMjIuMTZaTTIzNy4wMzMuMDE4SDE4Ljg5QzguNTgtLjA5OC4xMjUgOC4xNjEtLjAwMSAxOC40NzF2MjE5LjA1M2MuMTIyIDEwLjMxNSA4LjU3NiAxOC41ODIgMTguODkgMTguNDc0aDIxOC4xNDRjMTAuMzM2LjEyOCAxOC44MjMtOC4xMzkgMTguOTY2LTE4LjQ3NFYxOC40NTRjLS4xNDctMTAuMzMtOC42MzUtMTguNTg4LTE4Ljk2Ni0xOC40NTMnIGZpbGw9JyNmZmYnLz48L3N2Zz4K)](https://www.linkedin.com/in/mayconhenrique/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/marquesmaycon)
   [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mayconmarquesh@gmail.com)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/5544991173753)
 </div>
